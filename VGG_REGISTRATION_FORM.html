@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form</title>
+    <style>
+      * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #344a72;
+        color: #fff;
+        line-height: 1.8;
+      }
+
+      a {
+       text-decoration: none;
+       color: #37a08e;
+      }
+
+      #container {
+        margin: 30px auto;
+        max-width: 450px;
+        padding: 20px;
+      }
+
+      .form-wrap {
+        background:#fff;
+        padding: 15px 25px;
+        color: #333;
+      }
+
+      .form-wrap h1 {
+        text-align: center;
+        color: #344a72;
+      }
+
+      h1 {
+        border-bottom-style: dashed;
+      }
+
+      .form-wrap .form-group {
+        margin-top: 15px;
+      }
+
+      .form-wrap .form-group label {
+        display: block;
+        color: #666;
+      }
+
+      .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .form-wrap button {
+        display: block;
+        width: 100%;
+        background-color: #49c1a2;
+        padding: 10px;
+        margin-top: 20px;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      .form-wrap .bottom-text {
+        font-size: 13px;
+        margin-top: 20px;
+      }
+
+      footer {
+       text-align: center;
+       margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="form-wrap">
+        <h1>VGG REGISTRATION FORM</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Name (First and Last)</label>
+            <input type="text" name="Name" id="name" placeholder="Ibrahim Adeyemo"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ibrahimadeyemo@gmail.com"/>
+          </div>
+          <div class="form-group">
+            <label for="number">Phone Number</label>
+            <input type="number" name="number" id="number" placeholder="Input Your Number"/>
+          </div>
+          <div class="form-group">
+            <label for="state">State of Residence</label>
+            <input type="text" name="state" id="state" placeholder="Lagos"/>
+          </div>
+          <div class='form-group'>
+            <label for="vgg-internship-track">VGG Internship Track</label>
+            <input type="text" name="vgg-internship-track" id="vgg-internship-track" placeholder="Frontend Development">
+          </div>
+          <button type="submit" class="btn">Submit</button>
+          <p class="bottom-text">
+            By clicking the Submit button, you agree to our
+            <a href="#">Terms & Conditions</a>
+          </p>
+        </form>
+      </div>
+      <footer>
+        <p>Copyright &copy; 2020, VGG, All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
